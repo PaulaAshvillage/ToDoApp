@@ -17,8 +17,11 @@ getRequestAPI();
 function renderState() {
   todos.forEach((todo) => {
     const newLi = document.createElement("li");
+    const checkbox = document.createElement("input");
     const toDoDescription = todo.description;
     newLi.innerText = toDoDescription;
+    checkbox.type = "checkbox";
+    newLi.appendChild(checkbox);
     ulToDo.appendChild(newLi);
   });
 }
