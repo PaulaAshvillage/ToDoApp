@@ -5,9 +5,9 @@
 - [ ] Use the Todo API with your new Todo App
   - [x] Load all todos from the Todo API
   - [x] Create todos in the Todo API
-  - [ ] Update todos in the Todo API whenever the done state is changed
-  - [ ] Add a `Delete Done Todos` button that will delete all done todos from the Todo API
-- [ ] Keep your local state, backend state and the UI in sync
+  - [x] Update todos in the Todo API whenever the done state is changed
+  - [x] Add a `Delete Done Todos` button that will delete all done todos from the Todo API
+- [x] Keep your local state, backend state and the UI in sync
 
 ## Hints
 
